@@ -130,7 +130,7 @@ Alert: backlight blinks when either value ≥ 80%.
 
 ### Cron entry (every 1 min)
 ```
-* * * * * WEMOS_URL=http://<wemos-ip>/update /path/to/claude-quota-monitoring/push_to_wemos.py
+* * * * * WEMOS_HOST=<wemos-ip> /path/to/claude-quota-monitoring/push_to_wemos.py
 ```
 
 ### Wemos: assign static DHCP lease in router

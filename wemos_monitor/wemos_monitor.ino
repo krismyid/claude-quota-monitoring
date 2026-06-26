@@ -236,7 +236,7 @@ void setup() {
     lcd.createChar(CH_DOT,   MIDDLE_DOT);
 
     lcd.setCursor(0, 0); lcd.print("Connecting WiFi ");
-    lcd.setCursor(0, 1); lcd.print("YOUR_WIFI_SSID  ");
+    lcd.setCursor(0, 1); lcd.print(WIFI_SSID);
 
     WiFi.mode(WIFI_STA);
     WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
